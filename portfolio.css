@@ -22,7 +22,7 @@
 
 .header {
     background: #FFF8F3;
-
+    
     background-image: url('/images/header_bg.png'), url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -92,7 +92,7 @@ main {
 }
 
 .about {
-    margin-top: 130px;
+    margin-top: 120px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 157px 130px 156px;
@@ -237,4 +237,42 @@ main {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+/* contact */
+.contact{
+    display: flex;
+    gap: 117px;
+    justify-content: space-between;
+    background: #FFF8F3;
+  padding: 130px 200px;
+}
+.contact-title{
+    font-weight: 700;
+font-size: 35px;
+color: #181818;
+margin-bottom: 20px;
+}
+.contact-description{
+    font-weight: 400;
+font-size: 16px;
+color: #474747;
+margin-bottom: 30px;
+
+}
+.connect-icon{
+    width: 900px;
+    height: 600px;
+}
+.contact input[type="text"],input[type="email"] ,textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding: 10px 20px;
+}
+input{
+    height: 64px;
+}
+.connect-icon a{
+    text-decoration: none;
+    padding: 18px;
 }
